@@ -16,7 +16,7 @@ jobs:
       - name: Set Up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.x  # Use the version of Ruby required for your Jekyll site
+          ruby-version: 2.7.0  # Use the version of Ruby required for your Jekyll site
 
       - name: Install Bundler
         run: gem install bundler
